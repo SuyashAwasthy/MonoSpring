@@ -1,0 +1,96 @@
+package com.techlabs.app.controller;
+
+import com.techlabs.app.service.BankingService;
+
+public class DemoController {
+
+	private BankingService bankApplicationService;
+
+	public BankApplicationController(BankApplicationService bankApplicationService) {
+		this.bankApplicationService = bankApplicationService;
+	}
+
+	@GetMapping("/admin/transactions")
+	@PreAuthorize("hasRole('ADMIN')")
+	public PagedResponse<TransactionResponseDto> getAllTransactions(
+			@RequestParam(name = "page", defaultValue = "0") int page,
+			@RequestParam(name = "size", defaultValue = "5") int size,
+			@RequestParam(name = "sortBy", defaultValue = "id") String sortBy,
+			@RequestParam(name = "direction", defaultValue = "asc") String direction,
+			@RequestParam(name = "from", defaultValue = "#{T(java.time.LocalDateTime).now().minusDays(30).toString()}") String from,
+			@RequestParam(name = "to", defaultValue = "#{T(java.time.LocalDateTime).now().toString()}") String to) {
+
+		LocalDateTime fromDate = LocalDateTime.parse(from);
+		LocalDateTime toDate = LocalDateTime.parse(to);
+
+		return bankApplicationService.getAllTransactions(fromDate, toDate, page, size, sortBy, direction);
+	}
+
+	@PostMapping("/admin/customers/{userID}")
+	@PreAuthorize("hasRole('ADMIN')")
+	public UserResponseDto createCustomer(@RequestBody CustomerRequestDto customerRequestDto,
+			@PathVariable(name = "userID") long userID) {
+		return bankApplicationService.createCustomer(customerRequestDto, userID);
+	}
+
+	@PostMapping("/admin/banks/{bankId}/customers/{customerId}/accounts")
+	@PreAuthorize("hasRole('ADMIN')")
+	public CustomerResponseDto createAccount(@PathVariable(name = "customerId") long customerId,
+			@PathVariable(name = "bankId") int bankId) {
+		return bankApplicationService.createAccount(customerId, bankId);
+	}
+
+	@GetMapping("/admin/customers")
+	@PreAuthorize("hasRole('ADMIN')")
+	public List<CustomerResponseDto> getAllCustomers() {
+		return bankApplicationService.getAllCustomers();
+	}
+
+	@GetMapping("/admin/customers/{customerId}")
+	@PreAuthorize("hasRole('ADMIN')")
+	public CustomerResponseDto getCustomerById(@PathVariable(name = "customerId") long customerId) {
+		return bankApplicationService.getCustomerById(customerId);
+	}
+
+	@PostMapping("/customers/transactions")
+	@PreAuthorize("hasRole('USER')")
+	public TransactionResponseDto performTransaction(
+			@RequestParam(name = "senderAccountNumber") long senderAccountNumber,
+			@RequestParam(name = "receiverAccountNumber") long receiverAccountNumber,
+			@RequestParam(name = "amount") double amount) {
+		return bankApplicationService.performTransaction(senderAccountNumber, receiverAccountNumber, amount);
+	}
+
+	@GetMapping("/customers/passbook/{accountNumber}")
+	@PreAuthorize("hasRole('USER')")
+	public PagedResponse<TransactionResponseDto> getPassbook(@PathVariable(name = "accountNumber") long accountNumber,
+			@RequestParam(name = "from", defaultValue = "#{T(java.time.LocalDateTime).now().minusDays(30).toString()}") String from,
+			@RequestParam(name = "to", defaultValue = "#{T(java.time.LocalDateTime).now().toString()}") String to,
+			@RequestParam(name = "page", defaultValue = "0") int page,
+			@RequestParam(name = "size", defaultValue = "5") int size,
+			@RequestParam(name = "sortBy", defaultValue = "id") String sortBy,
+			@RequestParam(name = "direction", defaultValue = "asc") String direction) {
+		LocalDateTime fromDate = LocalDateTime.parse(from);
+		LocalDateTime toDate = LocalDateTime.parse(to);
+		return bankApplicationService.getPassbook(accountNumber, fromDate, toDate, page, size, sortBy, direction);
+	}
+
+	@PutMapping("/customers/profile")
+	@PreAuthorize("hasRole('USER')")
+	public String updateProfile(@RequestBody ProfileRequestDto profileRequestDto) {
+		return bankApplicationService.updateProfile(profileRequestDto);
+	}
+
+	@PutMapping("/customers/transactions/{accountNumber}/deposit")
+	@PreAuthorize("hasRole('USER')")
+	public AccountResponseDto deposit(@PathVariable(name = "accountNumber") long accountNumber,
+			@RequestParam(name = "amount") double amount) {
+		return bankApplicationService.depositAmount(accountNumber, amount);
+	}
+	@GetMapping("/customers/accounts")
+	@PreAuthorize("hasRole('USER')")
+	public List<AccountResponseDto> getAllAccounts() {
+		return bankApplicationService.getAccounts();
+	}
+	
+}

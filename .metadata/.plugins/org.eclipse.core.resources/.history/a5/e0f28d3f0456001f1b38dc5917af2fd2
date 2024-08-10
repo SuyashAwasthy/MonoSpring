@@ -1,0 +1,39 @@
+package com.techlabs.app.model;
+
+import jakarta.persistence.*;
+
+@Entity
+public class Account {
+	@Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+    private String accountNumber;
+    private double balance = 1000.0;
+
+    @ManyToOne
+    @JoinColumn(name = "person_id")
+    private Person person;
+
+    // Getters and Setters
+
+    public void deposit(double amount) {
+        this.balance += amount;
+    }
+
+    public void withdraw(double amount) {
+        if (this.balance >= amount) {
+            this.balance -= amount;
+        } else {
+            throw new IllegalArgumentException("Insufficient balance");
+        }
+    }
+
+    public void transfer(Account toAccount, double amount) {
+        if (this.balance >= amount) {
+            this.withdraw(amount);
+            toAccount.deposit(amount);
+        } else {
+            throw new IllegalArgumentException("Insufficient balance");
+        }
+    }
+}

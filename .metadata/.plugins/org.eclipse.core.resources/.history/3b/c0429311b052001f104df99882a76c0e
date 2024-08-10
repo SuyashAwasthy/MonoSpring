@@ -1,0 +1,5 @@
+package com.techlabs.hibernate.util;
+
+public class PagedResponse {
+
+}

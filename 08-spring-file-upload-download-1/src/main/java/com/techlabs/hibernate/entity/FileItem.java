@@ -1,0 +1,27 @@
+package com.techlabs.hibernate.entity;
+import jakarta.persistence.*;
+import jakarta.validation.constraints.NotBlank;
+import lombok.*;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
+@Builder
+@Entity
+@Table(name = "image-data")
+public class FileItem {
+
+	@Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
+
+    @NotBlank(message = "Name of File cannot be empty")
+    private String name;
+
+    @NotBlank(message = "File type must be defined")
+    private String type;
+
+    @NotBlank(message = "File location must be specified")
+    private String location;
+}

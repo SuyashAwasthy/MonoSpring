@@ -1,0 +1,39 @@
+package com.techlabs.app.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class PersonService {
+	@Autowired
+    private PersonRepository personRepository;
+
+    @Autowired
+    private RoleRepository roleRepository;
+
+    @Autowired
+    private PasswordEncoder passwordEncoder;
+
+    public Person registerPerson(PersonDTO personDTO) {
+        Role userRole = roleRepository.findByName("ROLE_USER");
+
+        Person person = new Person();
+        person.setUsername(personDTO.getUsername());
+        person.setPassword(passwordEncoder.encode(personDTO.getPassword()));
+        person.setEmail(personDTO.getEmail());
+        person.setRole(userRole);
+
+        return personRepository.save(person);
+    }
+
+    public List<Person> getAllPersons() {
+        return personRepository.findAll();
+    }
+
+    public Person getPersonById(Long id) {
+        return personRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("Person not found"));
+    }
+
+    public void deletePerson(Long id) {
+        personRepository.deleteById(id);
+    }
+}

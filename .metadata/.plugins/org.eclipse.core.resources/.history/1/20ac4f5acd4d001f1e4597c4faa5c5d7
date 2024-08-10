@@ -1,0 +1,39 @@
+package com.techlabs.app.repository;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.techlabs.app.entity.Employee;
+
+public interface EmployeeRepository extends JpaRepository<Employee, Integer>{
+	
+	public List<Employee> findByName(String name);
+
+	public List<Employee> findByEmail(String email);
+
+	public List<Employee> findByActiveTrue();
+
+	public List<Employee> findByActiveFalse();
+
+	public List<Employee> findByNameStartingWith(String name);
+
+	public List<Employee> findBySalaryGreaterThanAndDesignation(double salary, String designation);
+
+	public List<Employee> findBySalaryBetween(Double start, Double end);
+
+//	public List<Employee> findByActiveAndCount();
+	
+	long countActiveEmployees();
+
+//	public int countByActiveTrue();
+//
+//	public int countByDesignation(String designation);
+//	
+//	public int countBySalaryGreaterThan(double salary);
+//
+//	public int findByCountAndActive();
+//
+//	public int findByCountAndDesignation();
+	
+}
