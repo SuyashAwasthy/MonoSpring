@@ -6,7 +6,6 @@ INDEX VERSION 1.134+C:\MonoJava\Spring core\.metadata\.plugins\org.eclipse.jdt.c
 3647192109.index
 1064596515.index
 1757704511.index
-2784847813.index
 1972902825.index
 234344568.index
 1865797976.index
@@ -17,16 +16,15 @@ INDEX VERSION 1.134+C:\MonoJava\Spring core\.metadata\.plugins\org.eclipse.jdt.c
 1481100267.index
 2926540523.index
 542768415.index
+776455477.index
 826843869.index
 2700088010.index
-2082834236.index
 3268738244.index
 1051412231.index
 126703558.index
-1623626350.index
 789927489.index
-2687909086.index
 2623194335.index
+2328269416.index
 1292353242.index
 963593067.index
 4232802070.index

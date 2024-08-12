@@ -1122,3 +1122,186 @@ Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'ap
     where
         r1_0.user_id=?
 2024-08-10 17:57:23 TRACE org.hibernate.orm.jdbc.bind - binding parameter (1:BIGINT) <- [1]
+2024-08-12 11:26:01 INFO  com.techlabs.app.Application - Starting Application using Java 21.0.3 with PID 692 (C:\MonoJava\Spring core\13-spring-security2\target\classes started by stuti in C:\MonoJava\Spring core\13-spring-security2)
+2024-08-12 11:26:01 INFO  com.techlabs.app.Application - No active profile set, falling back to 1 default profile: "default"
+2024-08-12 11:26:01 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-12 11:26:01 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-12 11:26:02 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-12 11:26:02 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 94 ms. Found 8 JPA repository interfaces.
+2024-08-12 11:26:03 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-08-12 11:26:03 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-12 11:26:03 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-12 11:26:03 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-12 11:26:03 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1956 ms
+2024-08-12 11:26:03 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-12 11:26:03 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-12 11:26:04 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-08-12 11:26:04 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-12 11:26:04 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-12 11:26:04 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@73be0d6f
+2024-08-12 11:26:04 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-12 11:26:05 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-12 11:26:06 DEBUG org.hibernate.SQL - 
+    create table account (
+        account_number bigint not null auto_increment,
+        balance float(53) not null,
+        is_active bit not null,
+        bank_id integer,
+        customer_id bigint,
+        primary key (account_number)
+    ) engine=InnoDB
+2024-08-12 11:26:06 DEBUG org.hibernate.SQL - 
+    create table admin (
+        id bigint not null auto_increment,
+        email varchar(255) not null,
+        name varchar(255),
+        password varchar(255) not null,
+        primary key (id)
+    ) engine=InnoDB
+2024-08-12 11:26:06 DEBUG org.hibernate.SQL - 
+    create table bank (
+        bank_id integer not null auto_increment,
+        abbreviation varchar(255) not null,
+        full_name varchar(255) not null,
+        primary key (bank_id)
+    ) engine=InnoDB
+2024-08-12 11:26:06 DEBUG org.hibernate.SQL - 
+    create table customer (
+        customer_id bigint not null auto_increment,
+        first_name varchar(50) not null,
+        is_active bit not null,
+        last_name varchar(50) not null,
+        total_balance float(53) not null,
+        primary key (customer_id)
+    ) engine=InnoDB
+2024-08-12 11:26:06 DEBUG org.hibernate.SQL - 
+    create table transaction (
+        id bigint not null auto_increment,
+        amount float(53) not null,
+        transaction_date datetime(6),
+        transaction_type enum ('Credit','Debit','Transfer'),
+        receiver_account bigint,
+        sender_account bigint,
+        primary key (id)
+    ) engine=InnoDB
+2024-08-12 11:26:06 DEBUG org.hibernate.SQL - 
+    create table user_roles (
+        user_id bigint not null,
+        role_id bigint not null,
+        primary key (user_id, role_id)
+    ) engine=InnoDB
+2024-08-12 11:26:06 DEBUG org.hibernate.SQL - 
+    alter table users 
+       add column customer_id bigint
+2024-08-12 11:26:06 DEBUG org.hibernate.SQL - 
+    alter table admin 
+       drop index UKc0r9atamxvbhjjvy5j8da1kam
+2024-08-12 11:26:06 DEBUG org.hibernate.SQL - 
+    alter table admin 
+       add constraint UKc0r9atamxvbhjjvy5j8da1kam unique (email)
+2024-08-12 11:26:06 DEBUG org.hibernate.SQL - 
+    alter table users 
+       drop index UK72efjd5u3nqtjdduip5wwvd39
+2024-08-12 11:26:06 DEBUG org.hibernate.SQL - 
+    alter table users 
+       add constraint UK72efjd5u3nqtjdduip5wwvd39 unique (customer_id)
+2024-08-12 11:26:06 DEBUG org.hibernate.SQL - 
+    alter table account 
+       add constraint FKawl1lrpngb7h5ktg79odeic5w 
+       foreign key (bank_id) 
+       references bank (bank_id)
+2024-08-12 11:26:06 DEBUG org.hibernate.SQL - 
+    alter table account 
+       add constraint FKnnwpo0lfq4xai1rs6887sx02k 
+       foreign key (customer_id) 
+       references customer (customer_id)
+2024-08-12 11:26:06 DEBUG org.hibernate.SQL - 
+    alter table transaction 
+       add constraint FK7scydgg0vrrvll4pbr5k5gpmn 
+       foreign key (receiver_account) 
+       references account (account_number)
+2024-08-12 11:26:06 DEBUG org.hibernate.SQL - 
+    alter table transaction 
+       add constraint FK63ej68gcuroi6odfo6t70l5iv 
+       foreign key (sender_account) 
+       references account (account_number)
+2024-08-12 11:26:06 DEBUG org.hibernate.SQL - 
+    alter table user_roles 
+       add constraint FKh8ciramu9cc9q3qcqiv4ue8a6 
+       foreign key (role_id) 
+       references roles (id)
+2024-08-12 11:26:06 DEBUG org.hibernate.SQL - 
+    alter table user_roles 
+       add constraint FKhfh9dx7w3ubf1co1vdev94g3f 
+       foreign key (user_id) 
+       references users (id)
+2024-08-12 11:26:07 DEBUG org.hibernate.SQL - 
+    alter table users 
+       add constraint FKj1nvw1u6pgkabmhbcqkvatr8s 
+       foreign key (customer_id) 
+       references customer (customer_id)
+2024-08-12 11:26:07 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-12 11:26:07 INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-08-12 11:26:07 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-12 11:26:08 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bankAppController' defined in file [C:\MonoJava\Spring core\13-spring-security2\target\classes\com\techlabs\app\controller\BankAppController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'bankAppServiceImpl': Injection of autowired dependencies failed
+2024-08-12 11:26:08 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-12 11:26:08 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-08-12 11:26:08 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-08-12 11:26:08 INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-08-12 11:26:08 INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-08-12 11:26:08 ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bankAppController' defined in file [C:\MonoJava\Spring core\13-spring-security2\target\classes\com\techlabs\app\controller\BankAppController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'bankAppServiceImpl': Injection of autowired dependencies failed
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:795)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1375)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1212)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.techlabs.app.Application.main(Application.java:10)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bankAppServiceImpl': Injection of autowired dependencies failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:514)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1439)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782)
+	... 22 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.mail.username' in value "${spring.mail.username}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:200)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:964)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1374)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:508)
+	... 34 common frames omitted

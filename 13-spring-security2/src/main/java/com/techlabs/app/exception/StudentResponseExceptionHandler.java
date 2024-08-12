@@ -71,7 +71,7 @@ public class StudentResponseExceptionHandler {
 	
 
 	@ExceptionHandler
-	public ResponseEntity<StudentErrorResponse> handleException(NoStudentRecordFoundException exc) {
+	public ResponseEntity<StudentErrorResponse> handleException(NoRecordFoundException exc) {
 
 		// create a Student Error Message
 		StudentErrorResponse error = new StudentErrorResponse();
