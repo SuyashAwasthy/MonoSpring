@@ -7704,3 +7704,605 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.techlabs:
 2024-08-12 23:31:29,816 [Worker-145: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2024-08-12 23:31:29,850 [Worker-145: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2024-08-12 23:31:29,856 [Worker-145: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\16-spring-contact-app\src\test\resources
+2024-08-12 23:32:31,746 [Worker-150: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-12 23:32:31,785 [Worker-150: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-12 23:32:31,787 [Worker-150: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\16-spring-contact-app\src\test\resources
+2024-08-13 02:05:26,796 [Worker-160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 02:05:26,834 [Worker-160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 02:05:26,839 [Worker-160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\16-spring-bank-app-final\src\test\resources
+2024-08-13 03:18:10,130 [Worker-168: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 03:18:10,164 [Worker-168: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 03:18:10,168 [Worker-168: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\16-spring-contact-app\src\test\resources
+2024-08-13 03:18:33,449 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 03:18:33,570 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 03:18:33,572 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\16-spring-contact-app\src\test\resources
+2024-08-13 03:18:57,238 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 03:18:57,315 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 03:18:57,319 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\16-spring-contact-app\src\test\resources
+2024-08-13 03:20:07,276 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 03:20:07,301 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 03:20:07,305 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\16-spring-contact-app\src\test\resources
+2024-08-13 03:20:18,672 [Worker-166: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 03:20:18,692 [Worker-166: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 03:20:18,695 [Worker-166: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\16-spring-contact-app\src\test\resources
+2024-08-13 03:21:09,471 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 03:21:09,474 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 03:21:09,476 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\16-spring-contact-app\src\test\resources
+2024-08-13 03:21:39,414 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 03:21:39,421 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 03:21:39,425 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\16-spring-contact-app\src\test\resources
+2024-08-13 03:22:24,298 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 03:22:24,320 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 03:22:24,323 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\16-spring-contact-app\src\test\resources
+2024-08-13 03:22:33,981 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 03:22:33,987 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 03:22:33,990 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\16-spring-contact-app\src\test\resources
+2024-08-13 03:31:11,147 [Worker-175: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 03:31:11,160 [Worker-175: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 03:31:11,164 [Worker-175: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\16-spring-contact-app\src\test\resources
+2024-08-13 03:32:49,126 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 03:32:49,131 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 03:32:49,133 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\16-spring-contact-app\src\test\resources
+2024-08-13 03:34:19,323 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 03:34:19,328 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 03:34:19,330 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\16-spring-contact-app\src\test\resources
+2024-08-13 03:35:07,876 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 03:35:07,879 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 03:35:07,880 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\16-spring-contact-app\src\test\resources
+2024-08-13 03:36:03,243 [Worker-176: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 03:36:03,245 [Worker-176: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 03:36:03,248 [Worker-176: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\16-spring-contact-app\src\test\resources
+2024-08-13 03:36:33,455 [Worker-173: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 03:36:33,458 [Worker-173: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 03:36:33,461 [Worker-173: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\16-spring-contact-app\src\test\resources
+2024-08-13 03:37:13,846 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 03:37:13,852 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 03:37:13,855 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\16-spring-contact-app\src\test\resources
+2024-08-13 03:37:40,205 [Worker-173: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 03:37:40,212 [Worker-173: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 03:37:40,214 [Worker-173: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\16-spring-contact-app\src\test\resources
+2024-08-13 03:37:55,706 [Worker-175: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 03:37:55,711 [Worker-175: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 03:37:55,716 [Worker-175: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\16-spring-contact-app\src\test\resources
+2024-08-13 03:43:23,387 [Worker-180: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 03:43:23,404 [Worker-180: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 03:43:23,407 [Worker-180: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\16-spring-contact-app\src\test\resources
+2024-08-13 03:43:37,901 [Worker-181: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 03:43:37,932 [Worker-181: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 03:43:37,938 [Worker-181: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\16-spring-contact-app\src\test\resources
+2024-08-13 03:46:27,842 [Worker-186: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 03:46:27,849 [Worker-186: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 03:46:27,852 [Worker-186: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\16-spring-contact-app\src\test\resources
+2024-08-13 03:50:40,456 [Worker-190: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 03:50:40,460 [Worker-190: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 03:50:40,462 [Worker-190: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\16-spring-contact-app\src\test\resources
+2024-08-13 03:50:50,826 [Worker-186: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 03:50:50,832 [Worker-186: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 03:50:50,835 [Worker-186: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\16-spring-contact-app\src\test\resources
+2024-08-13 03:51:31,623 [Worker-188: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 03:51:31,627 [Worker-188: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 03:51:31,629 [Worker-188: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\16-spring-contact-app\src\test\resources
+2024-08-13 03:51:49,691 [Worker-191: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 03:51:49,696 [Worker-191: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 03:51:49,699 [Worker-191: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\16-spring-contact-app\src\test\resources
+2024-08-13 03:52:39,043 [Worker-189: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 03:52:39,047 [Worker-189: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 03:52:39,049 [Worker-189: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\16-spring-contact-app\src\test\resources
+2024-08-13 03:53:06,292 [Worker-192: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 03:53:06,297 [Worker-192: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 03:53:06,301 [Worker-192: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\16-spring-contact-app\src\test\resources
+2024-08-13 03:53:09,646 [Worker-191: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 03:53:09,651 [Worker-191: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 03:53:09,654 [Worker-191: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\16-spring-contact-app\src\test\resources
+2024-08-13 03:53:11,551 [Worker-186: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 03:53:11,555 [Worker-186: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 03:53:11,558 [Worker-186: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\16-spring-contact-app\src\test\resources
+2024-08-13 03:53:19,523 [Worker-190: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 03:53:19,527 [Worker-190: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 03:53:19,530 [Worker-190: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\16-spring-contact-app\src\test\resources
+2024-08-13 03:53:21,002 [Worker-186: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 03:53:21,006 [Worker-186: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 03:53:21,009 [Worker-186: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\16-spring-contact-app\src\test\resources
+2024-08-13 03:53:22,942 [Worker-190: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 03:53:22,947 [Worker-190: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 03:53:22,949 [Worker-190: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\16-spring-contact-app\src\test\resources
+2024-08-13 03:53:24,357 [Worker-189: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 03:53:24,360 [Worker-189: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 03:53:24,362 [Worker-189: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\16-spring-contact-app\src\test\resources
+2024-08-13 03:54:13,714 [Worker-186: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 03:54:13,720 [Worker-186: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 03:54:13,722 [Worker-186: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\16-spring-contact-app\src\test\resources
+2024-08-13 03:54:24,153 [Worker-192: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 03:54:24,158 [Worker-192: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 03:54:24,160 [Worker-192: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\16-spring-contact-app\src\test\resources
+2024-08-13 03:54:36,660 [Worker-190: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 03:54:36,663 [Worker-190: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 03:54:36,666 [Worker-190: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\16-spring-contact-app\src\test\resources
+2024-08-13 03:54:53,773 [Worker-191: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 03:54:53,777 [Worker-191: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 03:54:53,779 [Worker-191: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\16-spring-contact-app\src\test\resources
+2024-08-13 10:45:31,156 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-08-13 12:10:56,264 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-08-13 12:22:49,827 [Worker-11: Launching Application (16)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 12:22:49,873 [Worker-11: Launching Application (16)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 12:22:49,878 [Worker-11: Launching Application (16)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\16-spring-bank-app-final\src\test\resources
+2024-08-13 12:22:52,933 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 12:22:52,964 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 12:22:52,972 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\01-spring-dependency-inversion\src\test\resources
+2024-08-13 12:22:54,513 [Worker-9: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/01-spring-dependency-inversion: com.techlabs:01-spring-dependency-inversion:0.0.1-SNAPSHOT with classifier  to /01-spring-dependency-inversion/target/classes
+2024-08-13 12:22:54,698 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 12:22:54,730 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 12:22:54,736 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\02-spring-hibernate\src\test\resources
+2024-08-13 12:22:56,332 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 12:22:56,362 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 12:22:56,371 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\03-spring-hibernate\src\test\resources
+2024-08-13 12:22:57,957 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 12:22:57,996 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 12:22:58,003 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\04-spring-rest-hibernate\src\test\resources
+2024-08-13 12:22:59,729 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 12:22:59,752 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 12:22:59,759 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\05-spring-rest-jpa\src\test\resources
+2024-08-13 12:23:01,452 [Worker-9: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/01-spring-dependency-inversion: com.techlabs:01-spring-dependency-inversion:0.0.1-SNAPSHOT with classifier  to /01-spring-dependency-inversion/target/classes
+2024-08-13 12:23:01,677 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 12:23:01,711 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 12:23:01,717 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\06-spring-rest-jpa-employee\src\test\resources
+2024-08-13 12:23:02,940 [Worker-9: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/01-spring-dependency-inversion: com.techlabs:01-spring-dependency-inversion:0.0.1-SNAPSHOT with classifier  to /01-spring-dependency-inversion/target/classes
+2024-08-13 12:23:03,156 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 12:23:03,184 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 12:23:03,190 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\07-spring-email-attachment\src\test\resources
+2024-08-13 12:23:04,547 [Worker-9: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/02-spring-hibernate: com.techlabs:02-spring-hibernate:0.0.1-SNAPSHOT with classifier  to /02-spring-hibernate/target/classes
+2024-08-13 12:23:04,547 [Worker-9: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/01-spring-dependency-inversion: com.techlabs:01-spring-dependency-inversion:0.0.1-SNAPSHOT with classifier  to /01-spring-dependency-inversion/target/classes
+2024-08-13 12:23:04,662 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 12:23:04,683 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 12:23:04,695 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\08-spring-file-upload-download\src\test\resources
+2024-08-13 12:23:06,005 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 12:23:06,038 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 12:23:06,047 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\09-spring-jpa-one-to-one\src\test\resources
+2024-08-13 12:23:07,624 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 12:23:07,668 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 12:23:07,674 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\10-spring-jpa-one-to-many\src\test\resources
+2024-08-13 12:23:10,663 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 12:23:10,683 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 12:23:10,689 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-08-13 12:23:11,882 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 12:23:11,907 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 12:23:11,912 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\12-spring-many-to-many\src\test\resources
+2024-08-13 12:23:13,219 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 12:23:13,247 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 12:23:13,263 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security\src\test\resources
+2024-08-13 12:23:14,479 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 12:23:14,512 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 12:23:14,524 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security-demo\src\test\resources
+2024-08-13 12:23:16,504 [Worker-9: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/07-spring-email-attachment: com.techlabs:07-spring-email-attachment:0.0.1-SNAPSHOT with classifier  to /07-spring-email-attachment/target/classes
+2024-08-13 12:23:16,508 [Worker-9: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/01-spring-dependency-inversion: com.techlabs:01-spring-dependency-inversion:0.0.1-SNAPSHOT with classifier  to /01-spring-dependency-inversion/target/classes
+2024-08-13 12:23:16,630 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 12:23:16,645 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 12:23:16,654 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 12:23:18,416 [Worker-9: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/13-spring-security2: com.techlabs:13-spring-security:0.0.1-SNAPSHOT with classifier  to /13-spring-security2/target/classes
+2024-08-13 12:23:18,424 [Worker-9: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/07-spring-email-attachment: com.techlabs:07-spring-email-attachment:0.0.1-SNAPSHOT with classifier  to /07-spring-email-attachment/target/classes
+2024-08-13 12:23:18,427 [Worker-9: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/01-spring-dependency-inversion: com.techlabs:01-spring-dependency-inversion:0.0.1-SNAPSHOT with classifier  to /01-spring-dependency-inversion/target/classes
+2024-08-13 12:23:18,655 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 12:23:18,710 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 12:23:18,719 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\14-spring-bank-app-project\src\test\resources
+2024-08-13 12:23:20,408 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 12:23:20,438 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 12:23:20,446 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\15-spring-bank-app\src\test\resources
+2024-08-13 12:23:22,604 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 12:23:22,644 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 12:23:22,653 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\16-spring-contact-app\src\test\resources
+2024-08-13 12:33:29,815 [Worker-22: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/07-spring-email-attachment: com.techlabs:07-spring-email-attachment:0.0.1-SNAPSHOT with classifier null to /07-spring-email-attachment/target/classes
+2024-08-13 12:33:29,821 [Worker-22: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/01-spring-dependency-inversion: com.techlabs:01-spring-dependency-inversion:0.0.1-SNAPSHOT with classifier null to /01-spring-dependency-inversion/target/classes
+2024-08-13 12:33:30,089 [Worker-22: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/07-spring-email-attachment: com.techlabs:07-spring-email-attachment:0.0.1-SNAPSHOT with classifier null to /07-spring-email-attachment/target/classes
+2024-08-13 12:33:30,090 [Worker-22: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/01-spring-dependency-inversion: com.techlabs:01-spring-dependency-inversion:0.0.1-SNAPSHOT with classifier null to /01-spring-dependency-inversion/target/classes
+2024-08-13 12:33:30,360 [Worker-22: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/07-spring-email-attachment: com.techlabs:07-spring-email-attachment:0.0.1-SNAPSHOT with classifier null to /07-spring-email-attachment/target/classes
+2024-08-13 12:33:30,363 [Worker-22: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/01-spring-dependency-inversion: com.techlabs:01-spring-dependency-inversion:0.0.1-SNAPSHOT with classifier null to /01-spring-dependency-inversion/target/classes
+2024-08-13 12:36:25,533 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 12:36:25,597 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 12:36:25,605 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 12:36:35,613 [Worker-21: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/07-spring-email-attachment: com.techlabs:07-spring-email-attachment:0.0.1-SNAPSHOT with classifier null to /07-spring-email-attachment/target/classes
+2024-08-13 12:36:35,617 [Worker-21: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/01-spring-dependency-inversion: com.techlabs:01-spring-dependency-inversion:0.0.1-SNAPSHOT with classifier null to /01-spring-dependency-inversion/target/classes
+2024-08-13 12:36:35,959 [Worker-21: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/07-spring-email-attachment: com.techlabs:07-spring-email-attachment:0.0.1-SNAPSHOT with classifier null to /07-spring-email-attachment/target/classes
+2024-08-13 12:36:35,960 [Worker-21: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/01-spring-dependency-inversion: com.techlabs:01-spring-dependency-inversion:0.0.1-SNAPSHOT with classifier null to /01-spring-dependency-inversion/target/classes
+2024-08-13 12:36:36,337 [Worker-21: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/07-spring-email-attachment: com.techlabs:07-spring-email-attachment:0.0.1-SNAPSHOT with classifier null to /07-spring-email-attachment/target/classes
+2024-08-13 12:36:36,340 [Worker-21: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/01-spring-dependency-inversion: com.techlabs:01-spring-dependency-inversion:0.0.1-SNAPSHOT with classifier null to /01-spring-dependency-inversion/target/classes
+2024-08-13 12:39:49,649 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 12:39:49,678 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 12:39:49,684 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 12:42:43,373 [Worker-24: Launching Application (17)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 12:42:43,415 [Worker-24: Launching Application (17)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 12:42:43,421 [Worker-24: Launching Application (17)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 12:42:43,885 [Worker-24: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/07-spring-email-attachment: com.techlabs:07-spring-email-attachment:0.0.1-SNAPSHOT with classifier null to /07-spring-email-attachment/target/classes
+2024-08-13 12:42:43,886 [Worker-24: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/01-spring-dependency-inversion: com.techlabs:01-spring-dependency-inversion:0.0.1-SNAPSHOT with classifier null to /01-spring-dependency-inversion/target/classes
+2024-08-13 12:42:44,249 [Worker-24: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/07-spring-email-attachment: com.techlabs:07-spring-email-attachment:0.0.1-SNAPSHOT with classifier null to /07-spring-email-attachment/target/classes
+2024-08-13 12:42:44,249 [Worker-24: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/01-spring-dependency-inversion: com.techlabs:01-spring-dependency-inversion:0.0.1-SNAPSHOT with classifier null to /01-spring-dependency-inversion/target/classes
+2024-08-13 12:42:44,614 [Worker-24: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/07-spring-email-attachment: com.techlabs:07-spring-email-attachment:0.0.1-SNAPSHOT with classifier null to /07-spring-email-attachment/target/classes
+2024-08-13 12:42:44,614 [Worker-24: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/01-spring-dependency-inversion: com.techlabs:01-spring-dependency-inversion:0.0.1-SNAPSHOT with classifier null to /01-spring-dependency-inversion/target/classes
+2024-08-13 12:45:25,910 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 12:45:26,154 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 12:45:26,160 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 12:47:28,906 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 12:47:28,925 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 12:47:28,930 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 12:53:53,857 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 12:53:53,868 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 12:53:53,874 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 12:53:59,623 [Worker-39: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/07-spring-email-attachment: com.techlabs:07-spring-email-attachment:0.0.1-SNAPSHOT with classifier null to /07-spring-email-attachment/target/classes
+2024-08-13 12:53:59,625 [Worker-39: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/01-spring-dependency-inversion: com.techlabs:01-spring-dependency-inversion:0.0.1-SNAPSHOT with classifier null to /01-spring-dependency-inversion/target/classes
+2024-08-13 12:53:59,804 [Worker-39: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/07-spring-email-attachment: com.techlabs:07-spring-email-attachment:0.0.1-SNAPSHOT with classifier null to /07-spring-email-attachment/target/classes
+2024-08-13 12:53:59,805 [Worker-39: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/01-spring-dependency-inversion: com.techlabs:01-spring-dependency-inversion:0.0.1-SNAPSHOT with classifier null to /01-spring-dependency-inversion/target/classes
+2024-08-13 12:53:59,982 [Worker-39: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/07-spring-email-attachment: com.techlabs:07-spring-email-attachment:0.0.1-SNAPSHOT with classifier null to /07-spring-email-attachment/target/classes
+2024-08-13 12:53:59,983 [Worker-39: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/01-spring-dependency-inversion: com.techlabs:01-spring-dependency-inversion:0.0.1-SNAPSHOT with classifier null to /01-spring-dependency-inversion/target/classes
+2024-08-13 12:56:31,624 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 12:56:31,689 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 12:56:31,696 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 12:56:46,206 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 12:56:46,211 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 12:56:46,213 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 12:58:39,959 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 12:58:39,968 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 12:58:39,971 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:06:39,783 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 13:06:39,813 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 13:06:39,820 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:06:58,321 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 13:06:58,420 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 13:06:58,428 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:07:24,706 [Worker-48: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.techlabs:13-spring-security:0.0.1-SNAPSHOT @ C:\MonoJava\Spring core\13-spring-security2\pom.xml.
+2024-08-13 13:07:26,604 [Worker-48: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/07-spring-email-attachment: com.techlabs:07-spring-email-attachment:0.0.1-SNAPSHOT with classifier  to /07-spring-email-attachment/target/classes
+2024-08-13 13:07:26,610 [Worker-48: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/01-spring-dependency-inversion: com.techlabs:01-spring-dependency-inversion:0.0.1-SNAPSHOT with classifier  to /01-spring-dependency-inversion/target/classes
+2024-08-13 13:07:27,403 [Worker-48: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.techlabs:14-spring-bank-app-project:0.0.1-SNAPSHOT @ C:\MonoJava\Spring core\14-spring-bank-app-project\pom.xml.
+2024-08-13 13:07:27,561 [Worker-48: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/13-spring-security2: com.techlabs:13-spring-security:0.0.1-SNAPSHOT with classifier  to /13-spring-security2/target/classes
+2024-08-13 13:07:27,588 [Worker-48: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/07-spring-email-attachment: com.techlabs:07-spring-email-attachment:0.0.1-SNAPSHOT with classifier  to /07-spring-email-attachment/target/classes
+2024-08-13 13:07:27,591 [Worker-48: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/01-spring-dependency-inversion: com.techlabs:01-spring-dependency-inversion:0.0.1-SNAPSHOT with classifier  to /01-spring-dependency-inversion/target/classes
+2024-08-13 13:07:30,365 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:07:30,367 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:07:30,374 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:07:30,765 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 13:07:30,785 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:07:30,790 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\14-spring-bank-app-project\src\test\resources
+2024-08-13 13:07:32,939 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 13:07:32,987 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 13:07:33,034 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:07:47,805 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 13:07:47,819 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 13:07:47,827 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:08:02,274 [Worker-51: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-08-13 13:08:02,817 [Worker-51: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.techlabs:13-spring-security:0.0.1-SNAPSHOT @ C:\MonoJava\Spring core\13-spring-security2\pom.xml.
+2024-08-13 13:08:03,619 [Worker-51: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/07-spring-email-attachment: com.techlabs:07-spring-email-attachment:0.0.1-SNAPSHOT with classifier  to /07-spring-email-attachment/target/classes
+2024-08-13 13:08:03,624 [Worker-51: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/01-spring-dependency-inversion: com.techlabs:01-spring-dependency-inversion:0.0.1-SNAPSHOT with classifier  to /01-spring-dependency-inversion/target/classes
+2024-08-13 13:08:04,232 [Worker-51: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /13-spring-security2/src/main/java
+2024-08-13 13:08:04,236 [Worker-51: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /13-spring-security2/src/main/resources
+2024-08-13 13:08:04,236 [Worker-51: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /13-spring-security2/src/main/resources
+2024-08-13 13:08:04,237 [Worker-51: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /13-spring-security2/src/test/java
+2024-08-13 13:08:04,238 [Worker-51: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /13-spring-security2/src/test/resources
+2024-08-13 13:08:05,075 [Worker-51: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2024-08-13 13:08:05,924 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 13:08:05,948 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 13:08:05,957 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:08:59,779 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-08-13 13:09:03,257 [Worker-5: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/07-spring-email-attachment: com.techlabs:07-spring-email-attachment:0.0.1-SNAPSHOT with classifier  to /07-spring-email-attachment/target/classes
+2024-08-13 13:09:03,264 [Worker-5: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/01-spring-dependency-inversion: com.techlabs:01-spring-dependency-inversion:0.0.1-SNAPSHOT with classifier  to /01-spring-dependency-inversion/target/classes
+2024-08-13 13:09:07,528 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 13:09:07,555 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 13:09:07,568 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:09:19,651 [Worker-11: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/07-spring-email-attachment: com.techlabs:07-spring-email-attachment:0.0.1-SNAPSHOT with classifier null to /07-spring-email-attachment/target/classes
+2024-08-13 13:09:19,654 [Worker-11: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/01-spring-dependency-inversion: com.techlabs:01-spring-dependency-inversion:0.0.1-SNAPSHOT with classifier null to /01-spring-dependency-inversion/target/classes
+2024-08-13 13:09:21,251 [Worker-11: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/07-spring-email-attachment: com.techlabs:07-spring-email-attachment:0.0.1-SNAPSHOT with classifier null to /07-spring-email-attachment/target/classes
+2024-08-13 13:09:21,254 [Worker-11: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/01-spring-dependency-inversion: com.techlabs:01-spring-dependency-inversion:0.0.1-SNAPSHOT with classifier null to /01-spring-dependency-inversion/target/classes
+2024-08-13 13:09:22,241 [Worker-11: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/07-spring-email-attachment: com.techlabs:07-spring-email-attachment:0.0.1-SNAPSHOT with classifier null to /07-spring-email-attachment/target/classes
+2024-08-13 13:09:22,245 [Worker-11: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/01-spring-dependency-inversion: com.techlabs:01-spring-dependency-inversion:0.0.1-SNAPSHOT with classifier null to /01-spring-dependency-inversion/target/classes
+2024-08-13 13:10:13,685 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 13:10:13,694 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 13:10:13,700 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:11:16,071 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 13:11:16,077 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 13:11:16,083 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:14:47,715 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:14:47,719 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:14:47,723 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:19:44,310 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 13:19:44,339 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 13:19:44,345 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:25:01,088 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:25:01,089 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:25:01,092 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:25:25,597 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 13:25:25,601 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 13:25:25,605 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:25:29,064 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 13:25:29,069 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 13:25:29,074 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:25:30,186 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:25:30,187 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:25:30,189 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:25:47,880 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 13:25:47,887 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 13:25:47,893 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:25:57,489 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 13:25:57,495 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 13:25:57,501 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:25:59,810 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:25:59,811 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:25:59,815 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:26:10,215 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 13:26:10,221 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 13:26:10,228 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:26:12,163 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:26:12,164 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:26:12,168 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:26:22,068 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:26:22,070 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:26:22,077 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:26:37,896 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 13:26:37,903 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 13:26:37,908 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:26:40,618 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:26:40,619 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:26:40,623 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:27:01,364 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 13:27:01,373 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 13:27:01,379 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:27:03,611 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:27:03,612 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:27:03,618 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:27:04,672 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:27:04,674 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:27:04,677 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:27:23,561 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 13:27:23,570 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 13:27:23,578 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:27:52,583 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 13:27:52,588 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 13:27:52,591 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:27:53,654 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:27:53,656 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:27:53,659 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:28:33,574 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 13:28:33,581 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 13:28:33,586 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:28:34,768 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:28:34,770 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:28:34,773 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:28:35,872 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:28:35,873 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:28:35,877 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:28:47,361 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 13:28:47,367 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 13:28:47,373 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:29:12,955 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 13:29:12,960 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 13:29:12,964 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:30:00,046 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 13:30:00,054 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 13:30:00,064 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:30:01,236 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:30:01,237 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:30:01,240 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:30:39,896 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 13:30:39,907 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 13:30:39,911 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:30:41,030 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:30:41,031 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:30:41,041 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:30:42,165 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:30:42,168 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:30:42,175 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:30:43,398 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:30:43,400 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:30:43,408 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:33:28,928 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 13:33:28,935 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 13:33:28,940 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:34:22,285 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 13:34:22,293 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 13:34:22,297 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:34:23,387 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:34:23,388 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:34:23,390 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:34:35,654 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:34:35,655 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:34:35,664 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:34:36,716 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:34:36,718 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:34:36,722 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:34:49,841 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 13:34:49,848 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 13:34:49,850 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:35:28,809 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 13:35:28,817 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 13:35:28,821 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:35:29,921 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:35:29,922 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:35:29,926 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:35:43,982 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 13:35:43,990 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 13:35:43,996 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:35:45,144 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:35:45,145 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:35:45,148 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:36:09,149 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 13:36:09,161 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 13:36:09,170 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:36:10,490 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:36:10,493 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:36:10,496 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:39:31,817 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 13:39:31,826 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 13:39:31,832 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:39:32,934 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:39:32,935 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:39:32,937 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:39:38,928 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 13:39:38,935 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 13:39:38,940 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:39:39,998 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:39:39,999 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:39:40,001 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:40:20,305 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 13:40:20,313 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 13:40:20,319 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:40:21,398 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:40:21,400 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:40:21,403 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:40:23,781 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 13:40:23,788 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 13:40:23,792 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:40:24,894 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:40:24,895 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:40:24,897 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:40:34,433 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 13:40:34,439 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 13:40:34,443 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 13:40:35,501 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:40:35,503 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 13:40:35,508 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 15:43:15,440 [Worker-52: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/07-spring-email-attachment: com.techlabs:07-spring-email-attachment:0.0.1-SNAPSHOT with classifier null to /07-spring-email-attachment/target/classes
+2024-08-13 15:43:15,457 [Worker-52: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/01-spring-dependency-inversion: com.techlabs:01-spring-dependency-inversion:0.0.1-SNAPSHOT with classifier null to /01-spring-dependency-inversion/target/classes
+2024-08-13 15:43:15,848 [Worker-52: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/07-spring-email-attachment: com.techlabs:07-spring-email-attachment:0.0.1-SNAPSHOT with classifier null to /07-spring-email-attachment/target/classes
+2024-08-13 15:43:15,851 [Worker-52: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/01-spring-dependency-inversion: com.techlabs:01-spring-dependency-inversion:0.0.1-SNAPSHOT with classifier null to /01-spring-dependency-inversion/target/classes
+2024-08-13 15:43:16,133 [Worker-52: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/07-spring-email-attachment: com.techlabs:07-spring-email-attachment:0.0.1-SNAPSHOT with classifier null to /07-spring-email-attachment/target/classes
+2024-08-13 15:43:16,134 [Worker-52: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/01-spring-dependency-inversion: com.techlabs:01-spring-dependency-inversion:0.0.1-SNAPSHOT with classifier null to /01-spring-dependency-inversion/target/classes
+2024-08-13 15:43:41,046 [Worker-55: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/07-spring-email-attachment: com.techlabs:07-spring-email-attachment:0.0.1-SNAPSHOT with classifier null to /07-spring-email-attachment/target/classes
+2024-08-13 15:43:41,046 [Worker-55: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/01-spring-dependency-inversion: com.techlabs:01-spring-dependency-inversion:0.0.1-SNAPSHOT with classifier null to /01-spring-dependency-inversion/target/classes
+2024-08-13 15:43:41,275 [Worker-55: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/07-spring-email-attachment: com.techlabs:07-spring-email-attachment:0.0.1-SNAPSHOT with classifier null to /07-spring-email-attachment/target/classes
+2024-08-13 15:43:41,275 [Worker-55: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/01-spring-dependency-inversion: com.techlabs:01-spring-dependency-inversion:0.0.1-SNAPSHOT with classifier null to /01-spring-dependency-inversion/target/classes
+2024-08-13 15:43:41,492 [Worker-55: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/07-spring-email-attachment: com.techlabs:07-spring-email-attachment:0.0.1-SNAPSHOT with classifier null to /07-spring-email-attachment/target/classes
+2024-08-13 15:43:41,493 [Worker-55: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/01-spring-dependency-inversion: com.techlabs:01-spring-dependency-inversion:0.0.1-SNAPSHOT with classifier null to /01-spring-dependency-inversion/target/classes
+2024-08-13 16:56:15,772 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 16:56:15,848 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 16:56:15,860 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 16:56:17,098 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 16:56:17,101 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 16:56:17,134 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 16:58:59,378 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 16:58:59,465 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 16:58:59,472 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 16:59:00,733 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 16:59:00,735 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 16:59:00,743 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 16:59:01,883 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 16:59:01,885 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 16:59:01,892 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 17:12:02,436 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 17:12:02,462 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 17:12:02,471 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 17:18:50,857 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 17:18:50,869 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 17:18:50,875 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 17:18:51,952 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 17:18:51,953 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 17:18:51,964 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 17:19:26,706 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 17:19:26,767 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 17:19:26,774 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 17:19:27,884 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 17:19:27,886 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 17:19:27,889 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 17:19:29,034 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 17:19:29,035 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 17:19:29,040 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 17:19:59,896 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 17:19:59,907 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 17:19:59,913 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 17:24:03,207 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 17:24:03,214 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 17:24:03,217 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 17:24:04,329 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 17:24:04,331 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 17:24:04,335 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 17:25:31,768 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 17:25:31,774 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 17:25:31,785 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 17:25:32,850 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 17:25:32,852 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 17:25:32,855 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 17:27:09,553 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 17:27:09,565 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 17:27:09,575 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 17:27:10,661 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 17:27:10,663 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 17:27:10,667 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 17:28:43,514 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 17:28:43,525 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 17:28:43,531 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 17:28:44,590 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 17:28:44,592 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 17:28:44,596 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 17:29:54,916 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 17:29:54,927 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 17:29:54,930 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 17:29:56,005 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 17:29:56,007 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 17:29:56,011 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 17:30:13,323 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 17:30:13,335 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 17:30:13,341 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 17:30:14,423 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 17:30:14,426 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 17:30:14,431 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 17:30:37,119 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 17:30:37,135 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 17:30:37,144 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 17:30:38,371 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 17:30:38,373 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 17:30:38,384 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 17:30:39,498 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 17:30:39,499 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 17:30:39,503 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 17:31:18,519 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 17:31:18,525 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 17:31:18,532 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 17:34:53,568 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 17:34:53,575 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 17:34:53,581 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 17:34:54,699 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 17:34:54,700 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 17:34:54,703 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 17:35:48,834 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 17:35:48,859 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 17:35:48,863 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 17:35:49,928 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 17:35:49,929 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 17:35:49,934 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 17:37:00,509 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 17:37:00,528 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 17:37:00,533 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 17:37:01,682 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 17:37:01,685 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 17:37:01,691 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 17:37:14,321 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 17:37:14,327 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 17:37:14,331 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 17:37:15,396 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 17:37:15,397 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 17:37:15,401 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 17:42:30,092 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-13 17:42:30,113 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-13 17:42:30,116 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 17:42:31,188 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 17:42:31,190 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 17:42:31,195 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-13 18:52:04,794 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 18:52:04,804 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-13 18:52:04,812 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-14 10:50:51,061 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-08-14 10:53:14,558 [Worker-5: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/07-spring-email-attachment: com.techlabs:07-spring-email-attachment:0.0.1-SNAPSHOT with classifier  to /07-spring-email-attachment/target/classes
+2024-08-14 10:53:14,565 [Worker-5: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/01-spring-dependency-inversion: com.techlabs:01-spring-dependency-inversion:0.0.1-SNAPSHOT with classifier  to /01-spring-dependency-inversion/target/classes
+2024-08-14 10:53:15,532 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-14 10:53:15,555 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-14 10:53:15,562 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-14 10:53:18,623 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-14 10:53:18,635 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-14 10:53:18,640 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-14 10:53:34,798 [Worker-0: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/07-spring-email-attachment: com.techlabs:07-spring-email-attachment:0.0.1-SNAPSHOT with classifier null to /07-spring-email-attachment/target/classes
+2024-08-14 10:53:34,799 [Worker-0: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/01-spring-dependency-inversion: com.techlabs:01-spring-dependency-inversion:0.0.1-SNAPSHOT with classifier null to /01-spring-dependency-inversion/target/classes
+2024-08-14 10:53:35,003 [Worker-0: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/07-spring-email-attachment: com.techlabs:07-spring-email-attachment:0.0.1-SNAPSHOT with classifier null to /07-spring-email-attachment/target/classes
+2024-08-14 10:53:35,004 [Worker-0: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/01-spring-dependency-inversion: com.techlabs:01-spring-dependency-inversion:0.0.1-SNAPSHOT with classifier null to /01-spring-dependency-inversion/target/classes
+2024-08-14 10:53:35,212 [Worker-0: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/07-spring-email-attachment: com.techlabs:07-spring-email-attachment:0.0.1-SNAPSHOT with classifier null to /07-spring-email-attachment/target/classes
+2024-08-14 10:53:35,214 [Worker-0: Launching Application (17)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/01-spring-dependency-inversion: com.techlabs:01-spring-dependency-inversion:0.0.1-SNAPSHOT with classifier null to /01-spring-dependency-inversion/target/classes
+2024-08-14 10:54:09,298 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-08-14 10:54:09,306 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-08-14 10:54:09,312 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources
+2024-08-14 11:06:43,108 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-14 11:06:43,112 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-08-14 11:06:43,115 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\MonoJava\Spring core\13-spring-security2\src\test\resources

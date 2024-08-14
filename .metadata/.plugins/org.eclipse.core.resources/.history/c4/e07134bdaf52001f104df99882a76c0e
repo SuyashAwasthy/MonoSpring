@@ -1,5 +1,0 @@
-package com.techlabs.hibernate.service;
-
-public interface BlogService {
-
-}

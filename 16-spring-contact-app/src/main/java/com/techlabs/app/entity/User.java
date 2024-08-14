@@ -1,74 +1,45 @@
 package com.techlabs.app.entity;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 import lombok.Data;
 
+import java.util.List;
 import java.util.Set;
+
 @Data
 @Entity
-@Table(name = "users")
 public class User {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private long userId;
+	@NotBlank
+	private String firstName;
+	@NotBlank
+	private String lastName;
+	@NotNull
+	private boolean admin;
+	@NotNull
+	private boolean active = true;
+	@Column(nullable = false, unique = true)
+	@Email
+	private String email;
+	@Column(nullable = false)
+	private String password;
 
-    @Column(nullable = false, unique = true)
-    private String email;
-    @Column(nullable = false)
-    private String password;
+	@OneToMany(cascade = CascadeType.ALL,mappedBy = "user")
+    private List<Contact> contacts;
 
-    @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-    @JoinTable(name = "user_roles",
-            joinColumns = @JoinColumn(name = "user_id", referencedColumnName = "id"),
-            inverseJoinColumns = @JoinColumn(name = "role_id", referencedColumnName = "id")
-    )
-    private Set<Role> roles;
+	public void deleteContact(Contact contact) {
+		if(contacts.contains(contact)) {
+			
+			contact.setActive(false);
+			contacts.add(contact);
+	
     
-    @OneToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "customer_id",referencedColumnName = "customer_id")
-    private Customer customer;
-
-	public Long getId() {
-		return id;
+		}
 	}
-
-	public void setId(Long id) {
-		this.id = id;
-	}
-
-	public String getEmail() {
-		return email;
-	}
-
-	public void setEmail(String email) {
-		this.email = email;
-	}
-
-	public String getPassword() {
-		return password;
-	}
-
-	public void setPassword(String password) {
-		this.password = password;
-	}
-
-	public Set<Role> getRoles() {
-		return roles;
-	}
-
-	public void setRoles(Set<Role> roles) {
-		this.roles = roles;
-	}
-
-	public Customer getCustomer() {
-		return customer;
-	}
-
-	public void setCustomer(Customer customer) {
-		this.customer = customer;
-	}
-    
-    
-
 }

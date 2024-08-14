@@ -1,5 +1,0 @@
-package com.techlabs.hibernate.controller;
-
-public class CommentController {
-
-}

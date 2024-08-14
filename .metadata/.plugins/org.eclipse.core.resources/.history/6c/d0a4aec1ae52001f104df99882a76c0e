@@ -1,5 +1,0 @@
-package com.techlabs.hibernate.dto;
-
-public class BlogRequestDTO {
-
-}

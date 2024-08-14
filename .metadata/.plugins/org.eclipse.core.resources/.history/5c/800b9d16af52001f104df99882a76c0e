@@ -1,5 +1,0 @@
-package com.techlabs.hibernate.exception;
-
-public class ResourceNotFoundException {
-
-}

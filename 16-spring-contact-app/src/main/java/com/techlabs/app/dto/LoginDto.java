@@ -1,25 +1,25 @@
 package com.techlabs.app.dto;
 
 public class LoginDto {
-	private String usernameOrEmail;
+	private String email;
 	private String password;
 
 	public LoginDto() {
 		super();
 	}
 
-	public LoginDto(String usernameOrEmail, String password) {
+	public LoginDto(String email, String password) {
 		super();
-		this.usernameOrEmail = usernameOrEmail;
+		this.email = email;
 		this.password = password;
 	}
 
-	public String getUsernameOrEmail() {
-		return usernameOrEmail;
+	public String getEmail() {
+		return email;
 	}
 
-	public void setUsernameOrEmail(String usernameOrEmail) {
-		this.usernameOrEmail = usernameOrEmail;
+	public void setEmail(String email) {
+		this.email = email;
 	}
 
 	public String getPassword() {
@@ -32,7 +32,7 @@ public class LoginDto {
 
 	@Override
 	public String toString() {
-		return "LoginDto [usernameOrEmail=" + usernameOrEmail + ", password=" + password + "]";
+		return "LoginDto [email=" + email + ", password=" + password + "]";
 	}
 
 }

@@ -14,5 +14,10 @@
 			<type>2</type>
 			<location>C:/MonoJava/Spring core/13-spring-security2/target/classes</location>
 		</link>
+		<link>
+			<name>.link2</name>
+			<type>2</type>
+			<location>C:/MonoJava/Spring core/13-spring-bankapi-project/target/classes</location>
+		</link>
 	</linkedResources>
 </projectDescription>

@@ -15,11 +15,11 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
-import com.techlabs.app.dto.AccountResponseDto;
-import com.techlabs.app.dto.CustomerRequestDto;
-import com.techlabs.app.dto.CustomerResponseDto;
+import com.techlabs.app.dto.ContactDetailResponseDto;
+import com.techlabs.app.dto.ContactRequestDto;
+import com.techlabs.app.dto.ContactResponseDto;
 import com.techlabs.app.dto.ProfileRequestDto;
-import com.techlabs.app.dto.TransactionResponseDto;
+import com.techlabs.app.dto.UserRequestDto;
 import com.techlabs.app.dto.UserResponseDto;
 import com.techlabs.app.entity.Account;
 import com.techlabs.app.entity.Bank;
@@ -66,16 +66,16 @@ public class BankAppServiceImpl implements BankAppService{
 		this.passwordEncoder = passwordEncoder;
 	}
 
-	private List<TransactionResponseDto> convertTransactionToTransactionResponseDTO(List<Transaction> transactions) {
-		List<TransactionResponseDto> transactionDtos = new ArrayList<TransactionResponseDto>();
+	private List<UserRequestDto> convertTransactionToTransactionResponseDTO(List<Transaction> transactions) {
+		List<UserRequestDto> transactionDtos = new ArrayList<UserRequestDto>();
 		for (Transaction transaction : transactions) {
 			transactionDtos.add(convertTransactionToTransactionResponseDTO(transaction));
 		}
 		return transactionDtos;
 	}
 
-	private TransactionResponseDto convertTransactionToTransactionResponseDTO(Transaction transaction) {
-		TransactionResponseDto responseDto = new TransactionResponseDto();
+	private UserRequestDto convertTransactionToTransactionResponseDTO(Transaction transaction) {
+		UserRequestDto responseDto = new UserRequestDto();
 		responseDto.setId(transaction.getId());
 		if (transaction.getSenderAccount() != null) {
 			responseDto.setSenderAccount(convertAccountTransactionToAccountResponseDto(transaction.getSenderAccount()));
@@ -90,8 +90,8 @@ public class BankAppServiceImpl implements BankAppService{
 		return responseDto;
 	}
 
-	private AccountResponseDto convertAccountToAccountResponseDto(Account account) {
-		AccountResponseDto accountResponseDTO = new AccountResponseDto();
+	private ContactDetailResponseDto convertAccountToAccountResponseDto(Account account) {
+		ContactDetailResponseDto accountResponseDTO = new ContactDetailResponseDto();
 		if (account != null) {
 			accountResponseDTO.setAccountNumber(account.getAccountNumber());
 			accountResponseDTO.setBalance(account.getBalance());
@@ -99,8 +99,8 @@ public class BankAppServiceImpl implements BankAppService{
 		return accountResponseDTO;
 	}
 
-	private AccountResponseDto convertAccountTransactionToAccountResponseDto(Account account) {
-		AccountResponseDto accountResponseDTO = new AccountResponseDto();
+	private ContactDetailResponseDto convertAccountTransactionToAccountResponseDto(Account account) {
+		ContactDetailResponseDto accountResponseDTO = new ContactDetailResponseDto();
 		if (account != null) {
 			accountResponseDTO.setAccountNumber(account.getAccountNumber());
 		}
@@ -108,7 +108,7 @@ public class BankAppServiceImpl implements BankAppService{
 	}
 
 	@Override
-	public UserResponseDto createCustomer(CustomerRequestDto customerRequestDto, long userID) {
+	public UserResponseDto createCustomer(ContactRequestDto customerRequestDto, long userID) {
 		User user = userRepository.findById(userID).orElse(null);
 		if (user == null) {
 			throw new NoRecordFoundException("User: " + userID + "not found!");
@@ -138,8 +138,8 @@ public class BankAppServiceImpl implements BankAppService{
 		return responseDto;
 	}
 
-	private CustomerResponseDto convertCustomerToCustomerResponseDto(Customer save) {
-		CustomerResponseDto customerResponseDto = new CustomerResponseDto();
+	private ContactResponseDto convertCustomerToCustomerResponseDto(Customer save) {
+		ContactResponseDto customerResponseDto = new ContactResponseDto();
 		customerResponseDto.setCustomer_id(save.getCustomer_id());
 		customerResponseDto.setFirstName(save.getFirstName());
 		customerResponseDto.setLastName(save.getLastName());
@@ -147,7 +147,7 @@ public class BankAppServiceImpl implements BankAppService{
 		return customerResponseDto;
 	}
 
-	private Customer convertCustomerRequestToCustomer(CustomerRequestDto customerRequestDto) {
+	private Customer convertCustomerRequestToCustomer(ContactRequestDto customerRequestDto) {
 		Customer customer = new Customer();
 		customer.setFirstName(customerRequestDto.getFirstName());
 		customer.setLastName(customerRequestDto.getLastName());
@@ -156,7 +156,7 @@ public class BankAppServiceImpl implements BankAppService{
 	}
 
 	@Override
-	public CustomerResponseDto createAccount(long customerID, int bankID) {
+	public ContactResponseDto createAccount(long customerID, int bankID) {
 		Customer customer = customerRespository.findById(customerID).orElse(null);
 		if (customer == null) {
 			throw new NoRecordFoundException("Customer with id " + customerID + " not found!");
@@ -190,8 +190,8 @@ public class BankAppServiceImpl implements BankAppService{
 		return convertCustomerAccountToCustomerResponseDto(customer);
 	}
 
-	private CustomerResponseDto convertCustomerAccountToCustomerResponseDto(Customer customer) {
-		CustomerResponseDto customerResponseDto = new CustomerResponseDto();
+	private ContactResponseDto convertCustomerAccountToCustomerResponseDto(Customer customer) {
+		ContactResponseDto customerResponseDto = new ContactResponseDto();
 		customerResponseDto.setFirstName(customer.getFirstName());
 		customerResponseDto.setLastName(customer.getLastName());
 		customerResponseDto.setCustomer_id(customer.getCustomer_id());
@@ -201,8 +201,8 @@ public class BankAppServiceImpl implements BankAppService{
 		return customerResponseDto;
 	}
 
-	private List<AccountResponseDto> convertAccountToAccountResponseDto(List<Account> accounts) {
-		List<AccountResponseDto> accountResponseDTOs = new ArrayList<>();
+	private List<ContactDetailResponseDto> convertAccountToAccountResponseDto(List<Account> accounts) {
+		List<ContactDetailResponseDto> accountResponseDTOs = new ArrayList<>();
 		for (Account account : accounts) {
 			accountResponseDTOs.add(convertAccountToAccountResponseDto(account));
 		}
@@ -210,14 +210,14 @@ public class BankAppServiceImpl implements BankAppService{
 	}
 
 	@Override
-	public List<CustomerResponseDto> getAllCustomers() {
+	public List<ContactResponseDto> getAllCustomers() {
 		return convertCustomerToCustomerResponseDto(customerRespository.findAll());
 	}
 
-	private List<CustomerResponseDto> convertCustomerToCustomerResponseDto(List<Customer> customers) {
-		List<CustomerResponseDto> customerResponseDtos = new ArrayList<>();
+	private List<ContactResponseDto> convertCustomerToCustomerResponseDto(List<Customer> customers) {
+		List<ContactResponseDto> customerResponseDtos = new ArrayList<>();
 		for (Customer customer : customers) {
-			CustomerResponseDto customerResponseDto = new CustomerResponseDto();
+			ContactResponseDto customerResponseDto = new ContactResponseDto();
 			customerResponseDto.setCustomer_id(customer.getCustomer_id());
 			customerResponseDto.setFirstName(customer.getFirstName());
 			customerResponseDto.setLastName(customer.getLastName());
@@ -229,7 +229,7 @@ public class BankAppServiceImpl implements BankAppService{
 	}
 
 	@Override
-	public CustomerResponseDto getCustomerById(long customerid) {
+	public ContactResponseDto getCustomerById(long customerid) {
 		Customer customer = customerRespository.findById(customerid).orElse(null);
 		if (customer == null) {
 			throw new NoRecordFoundException("No customer found with the id " + customerid);
@@ -238,7 +238,7 @@ public class BankAppServiceImpl implements BankAppService{
 	}
 
 	@Override
-	public PagedResponse<TransactionResponseDto> getAllTransactions(LocalDateTime fromDate, LocalDateTime toDate,
+	public PagedResponse<UserRequestDto> getAllTransactions(LocalDateTime fromDate, LocalDateTime toDate,
 			int page, int size, String sortBy, String direction) {
 		Sort sort = Sort.by(sortBy);
 		if (direction.equalsIgnoreCase("desc")) {
@@ -251,7 +251,7 @@ public class BankAppServiceImpl implements BankAppService{
 		Page<Transaction> pagedResponse = transactionRepository.findAllByTransactionDateBetween(fromDate, toDate,
 				pageRequest);
 
-		PagedResponse<TransactionResponseDto> response = new PagedResponse<>(
+		PagedResponse<UserRequestDto> response = new PagedResponse<>(
 				convertTransactionToTransactionResponseDTO(pagedResponse.getContent()), pagedResponse.getNumber(),
 				pagedResponse.getSize(), pagedResponse.getTotalElements(), pagedResponse.getTotalPages(),
 				pagedResponse.isLast());
@@ -259,7 +259,7 @@ public class BankAppServiceImpl implements BankAppService{
 	}
 
 	@Override
-	public TransactionResponseDto performTransaction(long senderAccountNumber, long receiverAccountNumber,
+	public UserRequestDto performTransaction(long senderAccountNumber, long receiverAccountNumber,
 			double amount) {
 		Optional<User> user = userRepository.findByEmail(getUsernameFromSecurityContext());
 		List<Account> accounts = user.get().getCustomer().getAccounts();
@@ -331,7 +331,7 @@ public class BankAppServiceImpl implements BankAppService{
 	}
 
 	@Override
-	public PagedResponse<TransactionResponseDto> getPassbook(long accountNumber, LocalDateTime from, LocalDateTime to,
+	public PagedResponse<UserRequestDto> getPassbook(long accountNumber, LocalDateTime from, LocalDateTime to,
 			int page, int size, String sortBy, String direction)
 			throws IOException, MessagingException {
 		Sort sort = Sort.by(sortBy);
@@ -361,8 +361,8 @@ public class BankAppServiceImpl implements BankAppService{
 				mailStructure.setToEmail(user.get().getEmail());
 				mailStructure.setEmailBody(body);
 				mailStructure.setSubject(subject);
-				List<TransactionResponseDto> responseDTO = convertTransactionToTransactionResponseDTO(pagedResponse.getContent(),accountNumber);
-				return new PagedResponse<TransactionResponseDto>(responseDTO,
+				List<UserRequestDto> responseDTO = convertTransactionToTransactionResponseDTO(pagedResponse.getContent(),accountNumber);
+				return new PagedResponse<UserRequestDto>(responseDTO,
 						pagedResponse.getNumber(), pagedResponse.getSize(), pagedResponse.getTotalElements(),
 						pagedResponse.getTotalPages(), pagedResponse.isLast());
 			}
@@ -371,11 +371,11 @@ public class BankAppServiceImpl implements BankAppService{
 
 	}
 
-	private List<TransactionResponseDto> convertTransactionToTransactionResponseDTO(List<Transaction> passbook,
+	private List<UserRequestDto> convertTransactionToTransactionResponseDTO(List<Transaction> passbook,
 			long accountNumber) {
-		List<TransactionResponseDto> list = new ArrayList<>();
+		List<UserRequestDto> list = new ArrayList<>();
 		for (Transaction transaction : passbook) {
-			TransactionResponseDto responseDto = new TransactionResponseDto();
+			UserRequestDto responseDto = new UserRequestDto();
 			responseDto.setAmount(transaction.getAmount());
 			if (transaction.getReceiverAccount() != null) {
 				responseDto.setReceiverAccount(
@@ -437,7 +437,7 @@ public class BankAppServiceImpl implements BankAppService{
 	}
 
 	@Override
-	public AccountResponseDto depositAmount(long accountNumber, double amount) {
+	public ContactDetailResponseDto depositAmount(long accountNumber, double amount) {
 		User user = userRepository.findByEmail(getUsernameFromSecurityContext()).orElse(null);
 		List<Account> accounts = user.getCustomer().getAccounts();
 		Customer customer = user.getCustomer();
@@ -475,7 +475,7 @@ public class BankAppServiceImpl implements BankAppService{
 	}
 
 	@Override
-	public List<AccountResponseDto> getAccounts() {
+	public List<ContactDetailResponseDto> getAccounts() {
 		User user = userRepository.findByEmail(getUsernameFromSecurityContext()).orElse(null);
 		return convertAccountToAccountResponseDto(user.getCustomer().getAccounts());
 	}
@@ -541,7 +541,7 @@ public class BankAppServiceImpl implements BankAppService{
 	}
 
 	@Override
-	public AccountResponseDto viewBalance(long accountNumber) {
+	public ContactDetailResponseDto viewBalance(long accountNumber) {
 		String email = getUsernameFromSecurityContext();
 		Optional<User> user = userRepository.findByEmail(email);
 		List<Account> accounts = user.get().getCustomer().getAccounts();
