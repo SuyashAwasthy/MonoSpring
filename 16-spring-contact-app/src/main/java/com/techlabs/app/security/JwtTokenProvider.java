@@ -6,7 +6,8 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Component;
-import com.techlabs.app.exception.StudentApiException;
+
+import com.techlabs.app.exception.ContactApiException;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.Jwts;
@@ -24,7 +25,6 @@ public class JwtTokenProvider {
     @Value("${app.jwt-expiration-milliseconds}")
     private long jwtExpirationDate;
 
-    // Generate JWT token
     public String generateToken(Authentication authentication) {
         String username = authentication.getName();
         Date currentDate = new Date();
@@ -41,7 +41,6 @@ public class JwtTokenProvider {
                 .compact();
     }
 
-    // Get username from JWT token
     public String getUsername(String token) {
         Claims claims = Jwts.parserBuilder()
                 .setSigningKey(jwtSecret.getBytes())
@@ -51,7 +50,6 @@ public class JwtTokenProvider {
         return claims.getSubject();
     }
 
-    // Validate JWT token
     public boolean validateToken(String token) {
         try {
             Jwts.parserBuilder()
@@ -60,13 +58,13 @@ public class JwtTokenProvider {
                     .parseClaimsJws(token);
             return true;
         } catch (MalformedJwtException ex) {
-            throw new StudentApiException(HttpStatus.BAD_REQUEST, "Invalid JWT token");
+            throw new ContactApiException(HttpStatus.BAD_REQUEST, "Invalid JWT token");
         } catch (ExpiredJwtException ex) {
-            throw new StudentApiException(HttpStatus.BAD_REQUEST, "Expired JWT token");
+            throw new ContactApiException(HttpStatus.BAD_REQUEST, "Expired JWT token");
         } catch (UnsupportedJwtException ex) {
-            throw new StudentApiException(HttpStatus.BAD_REQUEST, "Unsupported JWT token");
+            throw new ContactApiException(HttpStatus.BAD_REQUEST, "Unsupported JWT token");
         } catch (IllegalArgumentException ex) {
-            throw new StudentApiException(HttpStatus.BAD_REQUEST, "JWT claims string is empty.");
+            throw new ContactApiException(HttpStatus.BAD_REQUEST, "JWT claims string is empty.");
         }
     }
 }

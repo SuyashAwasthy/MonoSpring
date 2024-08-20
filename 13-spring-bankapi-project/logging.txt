@@ -11346,3 +11346,159 @@ Identify and stop the process that's listening on port 8080 or configure this ap
 2024-08-14 12:03:06 TRACE org.hibernate.orm.jdbc.bind - binding parameter (2:VARCHAR) <- [abcd@email]
 2024-08-14 12:03:06 TRACE org.hibernate.orm.jdbc.bind - binding parameter (3:VARCHAR) <- [$2a$10$aDgxVGWqNNf6md4o9Wrh6eC/M7P8uI/v0JZ1P0P4YNxm.txrJun0W]
 2024-08-14 12:03:06 TRACE org.hibernate.orm.jdbc.bind - binding parameter (4:BIGINT) <- [3]
+2024-08-20 11:48:41 INFO  com.techlabs.app.Application - Starting Application using Java 21.0.3 with PID 3648 (C:\MonoJava\Spring core\13-spring-bankapi-project\target\classes started by stuti in C:\MonoJava\Spring core\13-spring-bankapi-project)
+2024-08-20 11:48:41 INFO  com.techlabs.app.Application - No active profile set, falling back to 1 default profile: "default"
+2024-08-20 11:48:41 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-20 11:48:41 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-20 11:48:42 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-20 11:48:42 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 71 ms. Found 8 JPA repository interfaces.
+2024-08-20 11:48:43 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-08-20 11:48:43 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-20 11:48:43 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-20 11:48:43 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-20 11:48:43 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2366 ms
+2024-08-20 11:48:43 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-20 11:48:43 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-20 11:48:43 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-08-20 11:48:44 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-20 11:48:44 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-20 11:48:44 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ed95a90
+2024-08-20 11:48:44 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-20 11:48:45 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-20 11:48:45 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-20 11:48:46 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-20 11:48:47 INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-08-20 11:48:47 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-20 11:48:47 WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Deferred [Mvc [pattern='/swagger-ui/**'], Ant [pattern='/swagger-ui/**']]. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-08-20 11:48:47 WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Deferred [Mvc [pattern='/v3/api-docs/**'], Ant [pattern='/v3/api-docs/**']]. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-08-20 11:48:47 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-08-20 11:48:47 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-08-20 11:48:47 INFO  com.techlabs.app.Application - Started Application in 7.049 seconds (process running for 10.21)
+2024-08-20 11:48:56 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-20 11:48:56 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-20 11:48:56 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-08-20 11:48:57 INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 663 ms
+2024-08-20 12:41:48 DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.customer_id,
+        u1_0.email,
+        u1_0.password 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2024-08-20 12:41:48 TRACE org.hibernate.orm.jdbc.bind - binding parameter (1:VARCHAR) <- [shivansh@email]
+2024-08-20 12:41:48 DEBUG org.hibernate.SQL - 
+    select
+        c1_0.customer_id,
+        c1_0.first_name,
+        c1_0.is_active,
+        c1_0.last_name,
+        c1_0.total_balance,
+        u1_0.id,
+        u1_0.email,
+        u1_0.password,
+        r1_0.user_id,
+        r1_1.id,
+        r1_1.name 
+    from
+        customer c1_0 
+    left join
+        users u1_0 
+            on c1_0.customer_id=u1_0.customer_id 
+    left join
+        user_roles r1_0 
+            on u1_0.id=r1_0.user_id 
+    left join
+        roles r1_1 
+            on r1_1.id=r1_0.role_id 
+    where
+        c1_0.customer_id=?
+2024-08-20 12:41:48 TRACE org.hibernate.orm.jdbc.bind - binding parameter (1:BIGINT) <- [2]
+2024-08-20 12:41:48 DEBUG org.hibernate.SQL - 
+    select
+        a1_0.id,
+        a1_0.email,
+        a1_0.name,
+        a1_0.password 
+    from
+        admin a1_0 
+    where
+        a1_0.email=?
+2024-08-20 12:41:48 TRACE org.hibernate.orm.jdbc.bind - binding parameter (1:VARCHAR) <- [shivansh@email]
+2024-08-20 12:41:48 DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.customer_id,
+        u1_0.email,
+        u1_0.password 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2024-08-20 12:41:48 TRACE org.hibernate.orm.jdbc.bind - binding parameter (1:VARCHAR) <- [shivansh@email]
+2024-08-20 12:41:48 DEBUG org.hibernate.SQL - 
+    select
+        c1_0.customer_id,
+        c1_0.first_name,
+        c1_0.is_active,
+        c1_0.last_name,
+        c1_0.total_balance,
+        u1_0.id,
+        u1_0.email,
+        u1_0.password,
+        r1_0.user_id,
+        r1_1.id,
+        r1_1.name 
+    from
+        customer c1_0 
+    left join
+        users u1_0 
+            on c1_0.customer_id=u1_0.customer_id 
+    left join
+        user_roles r1_0 
+            on u1_0.id=r1_0.user_id 
+    left join
+        roles r1_1 
+            on r1_1.id=r1_0.role_id 
+    where
+        c1_0.customer_id=?
+2024-08-20 12:41:48 TRACE org.hibernate.orm.jdbc.bind - binding parameter (1:BIGINT) <- [2]
+2024-08-20 12:41:48 DEBUG org.hibernate.SQL - 
+    select
+        a1_0.customer_id,
+        a1_0.account_number,
+        a1_0.balance,
+        a1_0.bank_id,
+        a1_0.is_active 
+    from
+        account a1_0 
+    where
+        a1_0.customer_id=?
+2024-08-20 12:41:48 TRACE org.hibernate.orm.jdbc.bind - binding parameter (1:BIGINT) <- [2]
+2024-08-20 12:41:48 DEBUG org.hibernate.SQL - 
+    select
+        t1_0.id,
+        t1_0.amount,
+        t1_0.receiver_account,
+        t1_0.sender_account,
+        t1_0.transaction_date,
+        t1_0.transaction_type 
+    from
+        transaction t1_0 
+    where
+        (
+            t1_0.sender_account=? 
+            or t1_0.receiver_account=?
+        ) 
+        and t1_0.transaction_date between ? and ? 
+    order by
+        t1_0.id 
+    limit
+        ?
+2024-08-20 12:41:48 TRACE org.hibernate.orm.jdbc.bind - binding parameter (1:BIGINT) <- [1]
+2024-08-20 12:41:48 TRACE org.hibernate.orm.jdbc.bind - binding parameter (2:BIGINT) <- [1]
+2024-08-20 12:41:48 TRACE org.hibernate.orm.jdbc.bind - binding parameter (3:TIMESTAMP) <- [2024-07-21T11:48:57.630714800]
+2024-08-20 12:41:48 TRACE org.hibernate.orm.jdbc.bind - binding parameter (4:TIMESTAMP) <- [2024-08-20T11:48:57.634939400]
+2024-08-20 12:41:48 TRACE org.hibernate.orm.jdbc.bind - binding parameter (5:INTEGER) <- [5]

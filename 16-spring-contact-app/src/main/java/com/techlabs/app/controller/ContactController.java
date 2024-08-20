@@ -30,8 +30,6 @@ public class ContactController {
 	private ContactApplicationService contactApplicationService;
 
 	@PostMapping
-	@Operation(summary = "Create a new contact.", description = "Creates a new contact with the provided details.", tags = {
-			"Contacts", "Create" })
 	public ResponseEntity<ContactResponseDto> createContact(@Valid @RequestBody ContactRequestDto contactRequestDto) {
 		return new ResponseEntity<ContactResponseDto>(
 				contactApplicationService.createAndUpdateContact(contactRequestDto), HttpStatus.CREATED);
@@ -39,8 +37,6 @@ public class ContactController {
 	}
 
 	@GetMapping
-	@Operation(summary = "Retrieve all contacts.", description = "Fetches a paginated and sorted list of all contacts.", tags = {
-			"Contacts", "Get" })
 	public ResponseEntity<PagedResponse<ContactResponseDto>> getAllContacts(
 			@RequestParam(name = "size", defaultValue = "5") int size,
 			@RequestParam(name = "page", defaultValue = "0") int page,
@@ -51,23 +47,17 @@ public class ContactController {
 	}
 
 	@GetMapping("{id}")
-	@Operation(summary = "Retrieve a contact by ID.", description = "Fetches detailed information for a contact based on their ID.", tags = {
-			"Contacts", "Get" })
 	public ResponseEntity<ContactResponseDto> getContactById(@PathVariable(name = "id") long id) {
 		return new ResponseEntity<ContactResponseDto>(contactApplicationService.getContactById(id), HttpStatus.OK);
 	}
 
 	@PutMapping
-	@Operation(summary = "Update an existing contact.", description = "Updates the details of an existing contact.", tags = {
-			"Contacts", "Update" })
 	public ResponseEntity<ContactResponseDto> updateContact(@RequestBody ContactRequestDto contactRequestDto) {
 		return new ResponseEntity<ContactResponseDto>(
 				contactApplicationService.createAndUpdateContact(contactRequestDto), HttpStatus.OK);
 	}
 
 	@DeleteMapping("{id}")
-	@Operation(summary = "Delete a contact by ID.", description = "Deletes a contact with the specified ID.", tags = {
-			"Contacts", "Delete" })
 	public ResponseEntity<String> deleteContact(@PathVariable(name = "id") long id) {
 		return new ResponseEntity<String>(contactApplicationService.deleteContact(id), HttpStatus.OK);
 	}

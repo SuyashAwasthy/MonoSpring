@@ -23,14 +23,11 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 
 @RestController
 @RequestMapping("api/contacts/{contactId}/details")
-@Tag(name = "Contact Details Management", description = "Endpoints for managing contact details by staff")
 public class ContactDetailController {
 	@Autowired
 	private ContactApplicationService contactApplicationService;
 	
 	@PostMapping
-	@Operation(summary = "Create contact detail for a specific contact.", description = "Creates a new contact detail associated with the specified contact ID.", tags = {
-			"Contact Details", "Create" })
 	public ResponseEntity<String> createContactDetail(@PathVariable(name = "contactId") long id,
 			@RequestBody ContactDetailRequestDto contactDetailRequestDto) {
 		return new ResponseEntity<String>(
@@ -39,8 +36,6 @@ public class ContactDetailController {
 	}
 
 	@GetMapping
-	@Operation(summary = "Retrieve all contact details for a specific contact.", description = "Fetches a paginated and sorted list of all contact details associated with the specified contact ID.", tags = {
-			"Contact Details", "Get" })
 	public PagedResponse<ContactDetailResponseDto> getContactDetails(@PathVariable(name = "contactId") long id,
 			@RequestParam(name = "size", defaultValue = "5") int size,
 			@RequestParam(name = "page", defaultValue = "0") int page,
@@ -58,15 +53,11 @@ public class ContactDetailController {
 	}
 
 	@GetMapping("{contactDetailId}")
-	@Operation(summary = "Retrieve a specific contact detail by ID.", description = "Fetches detailed information for a specific contact detail based on its ID.", tags = {
-			"Contact Details", "Get" })
 	public ContactDetailResponseDto getContactDetail(@PathVariable long contactId, @PathVariable long contactDetailId) {
 		return contactApplicationService.getContactDetailById(contactId, contactDetailId);
 	}
 
 	@DeleteMapping("{contactDetailId}")
-	@Operation(summary = "Delete a specific contact detail by ID.", description = "Deletes a contact detail based on its ID.", tags = {
-			"Contact Details", "Delete" })
 	public String deleteContactDetail(@PathVariable long contactId, @PathVariable long contactDetailId) {
 		return contactApplicationService.deleteContactDetail(contactId, contactDetailId);
 	}

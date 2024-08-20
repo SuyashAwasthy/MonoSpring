@@ -28,7 +28,7 @@ public class AuthController {
     }
 
     // Build Login REST API
-    @PostMapping(value = {"/login", "/signin"})
+    @PostMapping(value = {"/login"})
     public ResponseEntity<JWTAuthResponse> login(@RequestBody LoginDto loginDto){
         logger.trace("A TRACE Message");
         logger.debug("A DEBUG Message");
@@ -44,7 +44,7 @@ public class AuthController {
     }
 
     // Build Register REST API
-    @PostMapping(value = {"/register", "/signup"})
+    @PostMapping(value = {"/register"})
     public ResponseEntity<String> register(@RequestBody RegisterDto registerDto){
         logger.trace("A TRACE Message");
         logger.debug("A DEBUG Message");

@@ -2,6 +2,9 @@ package com.techlabs.app.dto;
 
 import java.util.List;
 
+import com.techlabs.app.entity.Contact;
+import com.techlabs.app.entity.ContactType;
+
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;

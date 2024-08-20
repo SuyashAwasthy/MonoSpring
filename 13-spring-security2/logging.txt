@@ -11346,3 +11346,7 @@ Identify and stop the process that's listening on port 8080 or configure this ap
 2024-08-14 12:03:06 TRACE org.hibernate.orm.jdbc.bind - binding parameter (2:VARCHAR) <- [abcd@email]
 2024-08-14 12:03:06 TRACE org.hibernate.orm.jdbc.bind - binding parameter (3:VARCHAR) <- [$2a$10$aDgxVGWqNNf6md4o9Wrh6eC/M7P8uI/v0JZ1P0P4YNxm.txrJun0W]
 2024-08-14 12:03:06 TRACE org.hibernate.orm.jdbc.bind - binding parameter (4:BIGINT) <- [3]
+2024-08-14 12:32:21 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1m38s117ms874µs800ns).
+2024-08-14 12:39:55 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=5m28s739ms378µs500ns).
+2024-08-14 12:53:19 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=11m23s195ms720µs600ns).
+2024-08-14 14:00:56 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h7m37s647ms369µs100ns).
